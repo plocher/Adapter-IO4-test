@@ -4516,14 +4516,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-IO4" device="INV"/>
 <part name="CON2" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK"/>
-<part name="Q1" library="SPCoast" deviceset="MOSFET-P" device=""/>
-<part name="Q2" library="SPCoast" deviceset="MOSFET-P" device=""/>
-<part name="Q3" library="SPCoast" deviceset="MOSFET-P" device=""/>
-<part name="Q4" library="SPCoast" deviceset="MOSFET-P" device=""/>
-<part name="SW1" library="SPCoast" deviceset="SWITCH-10-XX" device=""/>
-<part name="SW2" library="SPCoast" deviceset="SWITCH-10-XX" device=""/>
-<part name="SW3" library="SPCoast" deviceset="SWITCH-10-XX" device=""/>
-<part name="SW4" library="SPCoast" deviceset="SWITCH-10-XX" device=""/>
+<part name="Q1" library="SPCoast" deviceset="MOSFET-P" device="" value="P-FET"/>
+<part name="Q2" library="SPCoast" deviceset="MOSFET-P" device="" value="P-FET"/>
+<part name="Q3" library="SPCoast" deviceset="MOSFET-P" device="" value="P-FET"/>
+<part name="Q4" library="SPCoast" deviceset="MOSFET-P" device="" value="P-FET"/>
+<part name="SW1" library="SPCoast" deviceset="SWITCH-10-XX" device="" value="SPST-MOM"/>
+<part name="SW2" library="SPCoast" deviceset="SWITCH-10-XX" device="" value="SPST-MOM"/>
+<part name="SW3" library="SPCoast" deviceset="SWITCH-10-XX" device="" value="SPST-MOM"/>
+<part name="SW4" library="SPCoast" deviceset="SWITCH-10-XX" device="" value="SPST-MOM"/>
 <part name="P+1" library="SPCoast" deviceset="VCC" device=""/>
 <part name="GND1" library="SPCoast" deviceset="GND" device=""/>
 <part name="LED1" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
