@@ -4548,7 +4548,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <sheet>
 <plain>
 <text x="152.4" y="20.32" size="2.54" layer="97" ratio="10">&gt;DRAWING_NAME</text>
-<text x="240.03" y="12.7" size="2.1844" layer="97">1.0</text>
+<text x="240.03" y="12.7" size="2.1844" layer="97">1.1</text>
 <text x="241.3" y="6.35" size="2.1844" layer="97">A</text>
 <text x="166.37" y="6.35" size="2.1844" layer="97">John Plocher</text>
 </plain>
