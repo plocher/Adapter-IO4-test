@@ -61,9 +61,9 @@
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="39" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="39" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="Anatomie" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
@@ -4526,14 +4526,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <part name="SW4" library="SPCoast" deviceset="SWITCH-10-XX" device=""/>
 <part name="P+1" library="SPCoast" deviceset="VCC" device=""/>
 <part name="GND1" library="SPCoast" deviceset="GND" device=""/>
-<part name="LED1" library="SPCoast" deviceset="LED*" device="0805-LED"/>
-<part name="LED2" library="SPCoast" deviceset="LED*" device="0805-LED"/>
-<part name="LED3" library="SPCoast" deviceset="LED*" device="0805-LED"/>
-<part name="LED4" library="SPCoast" deviceset="LED*" device="0805-LED"/>
-<part name="R1" library="SPCoast" deviceset="R*" device="0805-RES"/>
-<part name="R2" library="SPCoast" deviceset="R*" device="0805-RES"/>
-<part name="R3" library="SPCoast" deviceset="R*" device="0805-RES"/>
-<part name="R4" library="SPCoast" deviceset="R*" device="0805-RES"/>
+<part name="LED1" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
+<part name="LED2" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
+<part name="LED3" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
+<part name="LED4" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
+<part name="R1" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
+<part name="R2" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
+<part name="R3" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
+<part name="R4" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
 <part name="P+2" library="SPCoast" deviceset="VCC" device=""/>
 <part name="GND2" library="SPCoast" deviceset="GND" device=""/>
 <part name="P+3" library="SPCoast" deviceset="VCC" device=""/>
@@ -4547,10 +4547,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <sheets>
 <sheet>
 <plain>
-<text x="152.4" y="20.32" size="2.1844" layer="97">IO4 test board</text>
+<text x="152.4" y="20.32" size="2.54" layer="97" ratio="10">&gt;DRAWING_NAME</text>
 <text x="240.03" y="12.7" size="2.1844" layer="97">1.0</text>
 <text x="241.3" y="6.35" size="2.1844" layer="97">A</text>
-<text x="166.37" y="6.35" size="2.1844" layer="97">Your Name</text>
+<text x="166.37" y="6.35" size="2.1844" layer="97">John Plocher</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="FRAME" x="0" y="0"/>
@@ -4583,7 +4583,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <instance part="GND5" gate="1" x="124.46" y="22.86"/>
 <instance part="P+4" gate="VCC" x="124.46" y="93.98"/>
 <instance part="P+5" gate="VCC" x="124.46" y="55.88"/>
-<instance part="BOARD1" gate="B" x="213.36" y="38.1"/>
+<instance part="BOARD1" gate="B" x="241.3" y="33.02"/>
 </instances>
 <busses>
 </busses>
