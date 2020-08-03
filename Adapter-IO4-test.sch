@@ -4526,10 +4526,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <part name="SW4" library="SPCoast" deviceset="SWITCH-10-XX" device="" value="SPST-MOM"/>
 <part name="P+1" library="SPCoast" deviceset="VCC" device=""/>
 <part name="GND1" library="SPCoast" deviceset="GND" device=""/>
-<part name="LED1" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
-<part name="LED2" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
-<part name="LED3" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
-<part name="LED4" library="SPCoast" deviceset="LED*" device="0805-LED" value="Y"/>
+<part name="LED1" library="SPCoast" deviceset="LED*" device="0805-LED" value="G"/>
+<part name="LED2" library="SPCoast" deviceset="LED*" device="0805-LED" value="G"/>
+<part name="LED3" library="SPCoast" deviceset="LED*" device="0805-LED" value="G"/>
+<part name="LED4" library="SPCoast" deviceset="LED*" device="0805-LED" value="G"/>
 <part name="R1" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
 <part name="R2" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>
 <part name="R3" library="SPCoast" deviceset="R*" device="0805-RES" value="2k0"/>

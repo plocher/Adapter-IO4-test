@@ -577,19 +577,19 @@ design rules under a new name.
 <attribute name="NAME" x="37.592" y="26.797" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="46.355" y="26.797" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="LED1" library="SPCoast" package="0805-LED" value="Y" x="10.795" y="37.465" smashed="yes">
+<element name="LED1" library="SPCoast" package="0805-LED" value="G" x="10.795" y="37.465" smashed="yes">
 <attribute name="NAME" x="9.525" y="42.545" size="1.27" layer="25"/>
 <attribute name="VALUE" x="9.525" y="34.925" size="1.27" layer="27"/>
 </element>
-<element name="LED2" library="SPCoast" package="0805-LED" value="Y" x="20.955" y="37.465" smashed="yes">
+<element name="LED2" library="SPCoast" package="0805-LED" value="G" x="20.955" y="37.465" smashed="yes">
 <attribute name="NAME" x="19.685" y="42.545" size="1.27" layer="25"/>
 <attribute name="VALUE" x="19.685" y="34.925" size="1.27" layer="27"/>
 </element>
-<element name="LED3" library="SPCoast" package="0805-LED" value="Y" x="31.115" y="37.465" smashed="yes">
+<element name="LED3" library="SPCoast" package="0805-LED" value="G" x="31.115" y="37.465" smashed="yes">
 <attribute name="NAME" x="29.845" y="42.545" size="1.27" layer="25"/>
 <attribute name="VALUE" x="29.845" y="34.925" size="1.27" layer="27"/>
 </element>
-<element name="LED4" library="SPCoast" package="0805-LED" value="Y" x="41.275" y="37.465" smashed="yes">
+<element name="LED4" library="SPCoast" package="0805-LED" value="G" x="41.275" y="37.465" smashed="yes">
 <attribute name="NAME" x="40.005" y="42.545" size="1.27" layer="25"/>
 <attribute name="VALUE" x="40.005" y="34.925" size="1.27" layer="27"/>
 </element>
