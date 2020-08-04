@@ -718,14 +718,14 @@ design rules under a new name.
 <element name="LED2X11" library="SPCoast" package="0805-LED" value="G" x="20.955" y="37.465"/>
 <element name="LED3X11" library="SPCoast" package="0805-LED" value="G" x="31.115" y="37.465"/>
 <element name="LED4X11" library="SPCoast" package="0805-LED" value="G" x="41.275" y="37.465"/>
-<element name="Q1X11" library="SPCoast" package="SOT23-3" value="" x="5.715" y="41.275" rot="R90"/>
-<element name="Q2X11" library="SPCoast" package="SOT23-3" value="" x="15.875" y="41.275" rot="R90"/>
-<element name="Q3X11" library="SPCoast" package="SOT23-3" value="" x="26.035" y="41.275" rot="R90"/>
-<element name="Q4X11" library="SPCoast" package="SOT23-3" value="" x="36.195" y="41.275" rot="R90"/>
-<element name="R1X11" library="SPCoast" package="0805-RES" value="" x="5.715" y="37.465" rot="R180"/>
-<element name="R2X11" library="SPCoast" package="0805-RES" value="" x="15.875" y="37.465" rot="R180"/>
-<element name="R3X11" library="SPCoast" package="0805-RES" value="" x="26.035" y="37.465" rot="R180"/>
-<element name="R4X11" library="SPCoast" package="0805-RES" value="" x="36.195" y="37.465" rot="R180"/>
+<element name="Q1X11" library="SPCoast" package="SOT23-3" value="p-fet" x="5.715" y="41.275" rot="R90"/>
+<element name="Q2X11" library="SPCoast" package="SOT23-3" value="p-fet" x="15.875" y="41.275" rot="R90"/>
+<element name="Q3X11" library="SPCoast" package="SOT23-3" value="p-fet" x="26.035" y="41.275" rot="R90"/>
+<element name="Q4X11" library="SPCoast" package="SOT23-3" value="p-fet" x="36.195" y="41.275" rot="R90"/>
+<element name="R1X11" library="SPCoast" package="0805-RES" value="2k0" x="5.715" y="37.465" rot="R180"/>
+<element name="R2X11" library="SPCoast" package="0805-RES" value="2k0" x="15.875" y="37.465" rot="R180"/>
+<element name="R3X11" library="SPCoast" package="0805-RES" value="2k0" x="26.035" y="37.465" rot="R180"/>
+<element name="R4X11" library="SPCoast" package="0805-RES" value="2k0" x="36.195" y="37.465" rot="R180"/>
 <element name="SW1X11" library="SPCoast" package="B3F-10XX" value="" x="10.795" y="29.845" rot="R90"/>
 <element name="SW2X11" library="SPCoast" package="B3F-10XX" value="" x="20.955" y="29.845" rot="R90"/>
 <element name="SW3X11" library="SPCoast" package="B3F-10XX" value="" x="31.115" y="29.845" rot="R90"/>
@@ -736,14 +736,14 @@ design rules under a new name.
 <element name="LED2X12" library="SPCoast" package="0805-LED" value="G" x="20.955" y="87.465"/>
 <element name="LED3X12" library="SPCoast" package="0805-LED" value="G" x="31.115" y="87.465"/>
 <element name="LED4X12" library="SPCoast" package="0805-LED" value="G" x="41.275" y="87.465"/>
-<element name="Q1X12" library="SPCoast" package="SOT23-3" value="" x="5.715" y="91.275" rot="R90"/>
-<element name="Q2X12" library="SPCoast" package="SOT23-3" value="" x="15.875" y="91.275" rot="R90"/>
-<element name="Q3X12" library="SPCoast" package="SOT23-3" value="" x="26.035" y="91.275" rot="R90"/>
-<element name="Q4X12" library="SPCoast" package="SOT23-3" value="" x="36.195" y="91.275" rot="R90"/>
-<element name="R1X12" library="SPCoast" package="0805-RES" value="" x="5.715" y="87.465" rot="R180"/>
-<element name="R2X12" library="SPCoast" package="0805-RES" value="" x="15.875" y="87.465" rot="R180"/>
-<element name="R3X12" library="SPCoast" package="0805-RES" value="" x="26.035" y="87.465" rot="R180"/>
-<element name="R4X12" library="SPCoast" package="0805-RES" value="" x="36.195" y="87.465" rot="R180"/>
+<element name="Q1X12" library="SPCoast" package="SOT23-3" value="p-fet" x="5.715" y="91.275" rot="R90"/>
+<element name="Q2X12" library="SPCoast" package="SOT23-3" value="p-fet" x="15.875" y="91.275" rot="R90"/>
+<element name="Q3X12" library="SPCoast" package="SOT23-3" value="p-fet" x="26.035" y="91.275" rot="R90"/>
+<element name="Q4X12" library="SPCoast" package="SOT23-3" value="p-fet" x="36.195" y="91.275" rot="R90"/>
+<element name="R1X12" library="SPCoast" package="0805-RES" value="2k0" x="5.715" y="87.465" rot="R180"/>
+<element name="R2X12" library="SPCoast" package="0805-RES" value="2k0" x="15.875" y="87.465" rot="R180"/>
+<element name="R3X12" library="SPCoast" package="0805-RES" value="2k0" x="26.035" y="87.465" rot="R180"/>
+<element name="R4X12" library="SPCoast" package="0805-RES" value="2k0" x="36.195" y="87.465" rot="R180"/>
 <element name="SW1X12" library="SPCoast" package="B3F-10XX" value="" x="10.795" y="79.845" rot="R90"/>
 <element name="SW2X12" library="SPCoast" package="B3F-10XX" value="" x="20.955" y="79.845" rot="R90"/>
 <element name="SW3X12" library="SPCoast" package="B3F-10XX" value="" x="31.115" y="79.845" rot="R90"/>
@@ -754,14 +754,14 @@ design rules under a new name.
 <element name="LED2X21" library="SPCoast" package="0805-LED" value="G" x="70.955" y="37.465"/>
 <element name="LED3X21" library="SPCoast" package="0805-LED" value="G" x="81.115" y="37.465"/>
 <element name="LED4X21" library="SPCoast" package="0805-LED" value="G" x="91.275" y="37.465"/>
-<element name="Q1X21" library="SPCoast" package="SOT23-3" value="" x="55.715" y="41.275" rot="R90"/>
-<element name="Q2X21" library="SPCoast" package="SOT23-3" value="" x="65.875" y="41.275" rot="R90"/>
-<element name="Q3X21" library="SPCoast" package="SOT23-3" value="" x="76.035" y="41.275" rot="R90"/>
-<element name="Q4X21" library="SPCoast" package="SOT23-3" value="" x="86.195" y="41.275" rot="R90"/>
-<element name="R1X21" library="SPCoast" package="0805-RES" value="" x="55.715" y="37.465" rot="R180"/>
-<element name="R2X21" library="SPCoast" package="0805-RES" value="" x="65.875" y="37.465" rot="R180"/>
-<element name="R3X21" library="SPCoast" package="0805-RES" value="" x="76.035" y="37.465" rot="R180"/>
-<element name="R4X21" library="SPCoast" package="0805-RES" value="" x="86.195" y="37.465" rot="R180"/>
+<element name="Q1X21" library="SPCoast" package="SOT23-3" value="p-fet" x="55.715" y="41.275" rot="R90"/>
+<element name="Q2X21" library="SPCoast" package="SOT23-3" value="p-fet" x="65.875" y="41.275" rot="R90"/>
+<element name="Q3X21" library="SPCoast" package="SOT23-3" value="p-fet" x="76.035" y="41.275" rot="R90"/>
+<element name="Q4X21" library="SPCoast" package="SOT23-3" value="p-fet" x="86.195" y="41.275" rot="R90"/>
+<element name="R1X21" library="SPCoast" package="0805-RES" value="2k0" x="55.715" y="37.465" rot="R180"/>
+<element name="R2X21" library="SPCoast" package="0805-RES" value="2k0" x="65.875" y="37.465" rot="R180"/>
+<element name="R3X21" library="SPCoast" package="0805-RES" value="2k0" x="76.035" y="37.465" rot="R180"/>
+<element name="R4X21" library="SPCoast" package="0805-RES" value="2k0" x="86.195" y="37.465" rot="R180"/>
 <element name="SW1X21" library="SPCoast" package="B3F-10XX" value="" x="60.795" y="29.845" rot="R90"/>
 <element name="SW2X21" library="SPCoast" package="B3F-10XX" value="" x="70.955" y="29.845" rot="R90"/>
 <element name="SW3X21" library="SPCoast" package="B3F-10XX" value="" x="81.115" y="29.845" rot="R90"/>
@@ -772,14 +772,14 @@ design rules under a new name.
 <element name="LED2X22" library="SPCoast" package="0805-LED" value="G" x="70.955" y="87.465"/>
 <element name="LED3X22" library="SPCoast" package="0805-LED" value="G" x="81.115" y="87.465"/>
 <element name="LED4X22" library="SPCoast" package="0805-LED" value="G" x="91.275" y="87.465"/>
-<element name="Q1X22" library="SPCoast" package="SOT23-3" value="" x="55.715" y="91.275" rot="R90"/>
-<element name="Q2X22" library="SPCoast" package="SOT23-3" value="" x="65.875" y="91.275" rot="R90"/>
-<element name="Q3X22" library="SPCoast" package="SOT23-3" value="" x="76.035" y="91.275" rot="R90"/>
-<element name="Q4X22" library="SPCoast" package="SOT23-3" value="" x="86.195" y="91.275" rot="R90"/>
-<element name="R1X22" library="SPCoast" package="0805-RES" value="" x="55.715" y="87.465" rot="R180"/>
-<element name="R2X22" library="SPCoast" package="0805-RES" value="" x="65.875" y="87.465" rot="R180"/>
-<element name="R3X22" library="SPCoast" package="0805-RES" value="" x="76.035" y="87.465" rot="R180"/>
-<element name="R4X22" library="SPCoast" package="0805-RES" value="" x="86.195" y="87.465" rot="R180"/>
+<element name="Q1X22" library="SPCoast" package="SOT23-3" value="p-fet" x="55.715" y="91.275" rot="R90"/>
+<element name="Q2X22" library="SPCoast" package="SOT23-3" value="p-fet" x="65.875" y="91.275" rot="R90"/>
+<element name="Q3X22" library="SPCoast" package="SOT23-3" value="p-fet" x="76.035" y="91.275" rot="R90"/>
+<element name="Q4X22" library="SPCoast" package="SOT23-3" value="p-fet" x="86.195" y="91.275" rot="R90"/>
+<element name="R1X22" library="SPCoast" package="0805-RES" value="2k0" x="55.715" y="87.465" rot="R180"/>
+<element name="R2X22" library="SPCoast" package="0805-RES" value="2k0" x="65.875" y="87.465" rot="R180"/>
+<element name="R3X22" library="SPCoast" package="0805-RES" value="2k0" x="76.035" y="87.465" rot="R180"/>
+<element name="R4X22" library="SPCoast" package="0805-RES" value="2k0" x="86.195" y="87.465" rot="R180"/>
 <element name="SW1X22" library="SPCoast" package="B3F-10XX" value="" x="60.795" y="79.845" rot="R90"/>
 <element name="SW2X22" library="SPCoast" package="B3F-10XX" value="" x="70.955" y="79.845" rot="R90"/>
 <element name="SW3X22" library="SPCoast" package="B3F-10XX" value="" x="81.115" y="79.845" rot="R90"/>
