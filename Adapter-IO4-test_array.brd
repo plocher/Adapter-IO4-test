@@ -394,56 +394,51 @@ if you push a header all the way into place, it is covered up entirely on the bo
 </package>
 <package name="0805-LED">
 <description>OSRAM Hyper CHIPLED Hyper-Bright LED LB R99A</description>
-<smd name="C" x="1.05" y="0" dx="1.2" dy="1.2" layer="1" rot="R270"/>
-<smd name="A" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1" rot="R270"/>
+<smd name="C" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="A" x="1.05" y="0" dx="1.2" dy="1.2" layer="1" rot="R90"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="1.0286" y1="0.3" x2="1.0286" y2="-0.3" width="0.1016" layer="49" curve="170.055574"/>
-<wire x1="-1.1044" y1="0.275" x2="-1.1044" y2="-0.275" width="0.0508" layer="49" curve="-180"/>
-<wire x1="0.5528" y1="0.4" x2="-0.6294" y2="0.4" width="0.1016" layer="49"/>
-<wire x1="0.5532" y1="-0.4" x2="-0.6294" y2="-0.4" width="0.1016" layer="49"/>
-<wire x1="0.3048" y1="0.381" x2="0.3048" y2="-0.4064" width="0.127" layer="21"/>
-<circle x="0.8536" y="0.35" radius="0.075" width="0.0508" layer="49"/>
-<rectangle x1="0.9036" y1="0.275" x2="1.1036" y2="0.425" layer="49" rot="R270"/>
-<rectangle x1="0.7786" y1="0.225" x2="0.8286" y2="0.275" layer="49" rot="R270"/>
-<rectangle x1="0.7411" y1="0.2375" x2="0.7911" y2="0.6125" layer="49" rot="R270"/>
-<rectangle x1="0.8286" y1="-0.5" x2="1.0286" y2="-0.2" layer="49" rot="R270"/>
-<rectangle x1="0.2411" y1="-0.1125" x2="1.1411" y2="0.1125" layer="49" rot="R270"/>
-<rectangle x1="-0.9794" y1="0.1" x2="-0.7794" y2="0.6" layer="49" rot="R270"/>
-<rectangle x1="-0.9794" y1="-0.6" x2="-0.7794" y2="-0.1" layer="49" rot="R270"/>
-<rectangle x1="-1.0169" y1="-0.1125" x2="-0.4669" y2="0.1125" layer="49" rot="R270"/>
-<rectangle x1="-0.9294" y1="0.175" x2="-0.8294" y2="0.275" layer="49" rot="R270"/>
-<rectangle x1="-0.9294" y1="-0.275" x2="-0.8294" y2="-0.175" layer="49" rot="R270"/>
-<wire x1="0.127" y1="0.0254" x2="-0.3048" y2="0.381" width="0.127" layer="21"/>
-<wire x1="-0.3048" y1="0.381" x2="-0.3048" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.3048" y1="-0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
-<wire x1="0.5334" y1="-0.7366" x2="1.778" y2="-0.7366" width="0.127" layer="21"/>
-<wire x1="1.778" y1="-0.7366" x2="1.778" y2="0.7366" width="0.127" layer="21"/>
-<wire x1="1.778" y1="0.7366" x2="0.5334" y2="0.7366" width="0.127" layer="21"/>
-<wire x1="0.5334" y1="0.7366" x2="-0.5334" y2="0.7366" width="0.127" layer="21"/>
-<wire x1="-0.5334" y1="0.7366" x2="-1.778" y2="0.7366" width="0.127" layer="21"/>
+<wire x1="-1.0286" y1="-0.3" x2="-1.0286" y2="0.3" width="0.1016" layer="49" curve="170.055574"/>
+<wire x1="1.1044" y1="-0.275" x2="1.1044" y2="0.275" width="0.0508" layer="49" curve="-180"/>
+<wire x1="-0.5528" y1="-0.4" x2="0.6294" y2="-0.4" width="0.1016" layer="49"/>
+<wire x1="-0.5532" y1="0.4" x2="0.6294" y2="0.4" width="0.1016" layer="49"/>
+<wire x1="-0.3048" y1="-0.381" x2="-0.3048" y2="0.4064" width="0.127" layer="21"/>
+<circle x="-0.8536" y="-0.35" radius="0.075" width="0.0508" layer="49"/>
+<rectangle x1="-1.1036" y1="-0.425" x2="-0.9036" y2="-0.275" layer="49" rot="R90"/>
+<rectangle x1="-0.8286" y1="-0.275" x2="-0.7786" y2="-0.225" layer="49" rot="R90"/>
+<rectangle x1="-0.7911" y1="-0.6125" x2="-0.7411" y2="-0.2375" layer="49" rot="R90"/>
+<rectangle x1="-1.0286" y1="0.2" x2="-0.8286" y2="0.5" layer="49" rot="R90"/>
+<rectangle x1="-1.1411" y1="-0.1125" x2="-0.2411" y2="0.1125" layer="49" rot="R90"/>
+<rectangle x1="0.7794" y1="-0.6" x2="0.9794" y2="-0.1" layer="49" rot="R90"/>
+<rectangle x1="0.7794" y1="0.1" x2="0.9794" y2="0.6" layer="49" rot="R90"/>
+<rectangle x1="0.4669" y1="-0.1125" x2="1.0169" y2="0.1125" layer="49" rot="R90"/>
+<rectangle x1="0.8294" y1="-0.275" x2="0.9294" y2="-0.175" layer="49" rot="R90"/>
+<rectangle x1="0.8294" y1="0.175" x2="0.9294" y2="0.275" layer="49" rot="R90"/>
+<wire x1="-0.127" y1="-0.0254" x2="0.3048" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="0.3048" y1="-0.381" x2="0.3048" y2="0.381" width="0.127" layer="21"/>
+<wire x1="0.3048" y1="0.381" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="1.778" y1="0.7366" x2="-1.778" y2="0.7366" width="0.127" layer="21"/>
 <wire x1="-1.778" y1="0.7366" x2="-1.778" y2="-0.7366" width="0.127" layer="21"/>
-<wire x1="-1.778" y1="-0.7366" x2="-0.5334" y2="-0.7366" width="0.127" layer="21"/>
-<wire x1="-0.5334" y1="-0.7366" x2="0.5334" y2="-0.7366" width="0.127" layer="21"/>
-<wire x1="2.0828" y1="-0.4826" x2="2.0828" y2="-0.6096" width="0.4064" layer="21"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-1.778" y1="-0.7366" x2="1.778" y2="-0.7366" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-0.7366" x2="1.778" y2="0.7366" width="0.127" layer="21"/>
+<wire x1="-2.0828" y1="0.4826" x2="-2.0828" y2="0.6096" width="0.4064" layer="21"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35" rot="R180"/>
 <polygon width="0.127" layer="21">
-<vertex x="-0.3048" y="0.381"/>
-<vertex x="-0.3048" y="-0.381"/>
-<vertex x="0.127" y="0"/>
+<vertex x="0.3048" y="-0.381"/>
+<vertex x="0.3048" y="0.381"/>
+<vertex x="-0.127" y="0"/>
 </polygon>
 </package>
 <package name="SOT23-3">
-<wire x1="0.381" y1="-0.6604" x2="-0.381" y2="-0.6604" width="0.127" layer="21"/>
-<wire x1="-0.6096" y1="0.7" x2="-1.4" y2="0.7" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="0.6096" y1="0.7" x2="1.4" y2="0.7" width="0.127" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.381" width="0.127" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="0.47" y1="1.4" x2="0.47" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="-1.4" x2="0.47" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="-1.4" x2="-0.55" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="1.4" x2="0.47" y2="1.4" width="0.127" layer="21"/>
+<smd name="3" x="-1.1" y="0" dx="0.8" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="1" y="0.95" dx="0.8" dy="0.9" layer="1" rot="R90"/>
+<smd name="1" x="1" y="-0.95" dx="0.8" dy="0.9" layer="1" rot="R90"/>
+<text x="-0.8255" y="1.778" size="0.8128" layer="25">&gt;NAME</text>
+<text x="0.1905" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="0805-RES">
 <smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
@@ -714,14 +709,14 @@ design rules under a new name.
 <elements>
 <element name="CON1X11" library="SPCoast" package="RJ25-INVERTED" value="" x="4.445" y="15.875" rot="R270"/>
 <element name="CON2X11" library="SPCoast" package="1X06_LOCK" value="" x="45.085" y="10.16" rot="R90"/>
-<element name="LED1X11" library="SPCoast" package="0805-LED" value="G" x="10.795" y="37.465"/>
-<element name="LED2X11" library="SPCoast" package="0805-LED" value="G" x="20.955" y="37.465"/>
-<element name="LED3X11" library="SPCoast" package="0805-LED" value="G" x="31.115" y="37.465"/>
-<element name="LED4X11" library="SPCoast" package="0805-LED" value="G" x="41.275" y="37.465"/>
-<element name="Q1X11" library="SPCoast" package="SOT23-3" value="p-fet" x="5.715" y="41.275" rot="R90"/>
-<element name="Q2X11" library="SPCoast" package="SOT23-3" value="p-fet" x="15.875" y="41.275" rot="R90"/>
-<element name="Q3X11" library="SPCoast" package="SOT23-3" value="p-fet" x="26.035" y="41.275" rot="R90"/>
-<element name="Q4X11" library="SPCoast" package="SOT23-3" value="p-fet" x="36.195" y="41.275" rot="R90"/>
+<element name="LED1X11" library="SPCoast" package="0805-LED" value="G" x="10.795" y="37.465" rot="R180"/>
+<element name="LED2X11" library="SPCoast" package="0805-LED" value="G" x="20.955" y="37.465" rot="R180"/>
+<element name="LED3X11" library="SPCoast" package="0805-LED" value="G" x="31.115" y="37.465" rot="R180"/>
+<element name="LED4X11" library="SPCoast" package="0805-LED" value="G" x="41.275" y="37.465" rot="R180"/>
+<element name="Q1X11" library="SPCoast" package="SOT23-3" value="p-fet" x="5.715" y="41.275"/>
+<element name="Q2X11" library="SPCoast" package="SOT23-3" value="p-fet" x="15.875" y="41.275"/>
+<element name="Q3X11" library="SPCoast" package="SOT23-3" value="p-fet" x="26.035" y="41.275"/>
+<element name="Q4X11" library="SPCoast" package="SOT23-3" value="p-fet" x="36.195" y="41.275"/>
 <element name="R1X11" library="SPCoast" package="0805-RES" value="2k0" x="5.715" y="37.465" rot="R180"/>
 <element name="R2X11" library="SPCoast" package="0805-RES" value="2k0" x="15.875" y="37.465" rot="R180"/>
 <element name="R3X11" library="SPCoast" package="0805-RES" value="2k0" x="26.035" y="37.465" rot="R180"/>
@@ -732,14 +727,14 @@ design rules under a new name.
 <element name="SW4X11" library="SPCoast" package="B3F-10XX" value="" x="41.275" y="29.845" rot="R90"/>
 <element name="CON1X12" library="SPCoast" package="RJ25-INVERTED" value="" x="4.445" y="65.875" rot="R270"/>
 <element name="CON2X12" library="SPCoast" package="1X06_LOCK" value="" x="45.085" y="60.16" rot="R90"/>
-<element name="LED1X12" library="SPCoast" package="0805-LED" value="G" x="10.795" y="87.465"/>
-<element name="LED2X12" library="SPCoast" package="0805-LED" value="G" x="20.955" y="87.465"/>
-<element name="LED3X12" library="SPCoast" package="0805-LED" value="G" x="31.115" y="87.465"/>
-<element name="LED4X12" library="SPCoast" package="0805-LED" value="G" x="41.275" y="87.465"/>
-<element name="Q1X12" library="SPCoast" package="SOT23-3" value="p-fet" x="5.715" y="91.275" rot="R90"/>
-<element name="Q2X12" library="SPCoast" package="SOT23-3" value="p-fet" x="15.875" y="91.275" rot="R90"/>
-<element name="Q3X12" library="SPCoast" package="SOT23-3" value="p-fet" x="26.035" y="91.275" rot="R90"/>
-<element name="Q4X12" library="SPCoast" package="SOT23-3" value="p-fet" x="36.195" y="91.275" rot="R90"/>
+<element name="LED1X12" library="SPCoast" package="0805-LED" value="G" x="10.795" y="87.465" rot="R180"/>
+<element name="LED2X12" library="SPCoast" package="0805-LED" value="G" x="20.955" y="87.465" rot="R180"/>
+<element name="LED3X12" library="SPCoast" package="0805-LED" value="G" x="31.115" y="87.465" rot="R180"/>
+<element name="LED4X12" library="SPCoast" package="0805-LED" value="G" x="41.275" y="87.465" rot="R180"/>
+<element name="Q1X12" library="SPCoast" package="SOT23-3" value="p-fet" x="5.715" y="91.275"/>
+<element name="Q2X12" library="SPCoast" package="SOT23-3" value="p-fet" x="15.875" y="91.275"/>
+<element name="Q3X12" library="SPCoast" package="SOT23-3" value="p-fet" x="26.035" y="91.275"/>
+<element name="Q4X12" library="SPCoast" package="SOT23-3" value="p-fet" x="36.195" y="91.275"/>
 <element name="R1X12" library="SPCoast" package="0805-RES" value="2k0" x="5.715" y="87.465" rot="R180"/>
 <element name="R2X12" library="SPCoast" package="0805-RES" value="2k0" x="15.875" y="87.465" rot="R180"/>
 <element name="R3X12" library="SPCoast" package="0805-RES" value="2k0" x="26.035" y="87.465" rot="R180"/>
@@ -750,14 +745,14 @@ design rules under a new name.
 <element name="SW4X12" library="SPCoast" package="B3F-10XX" value="" x="41.275" y="79.845" rot="R90"/>
 <element name="CON1X21" library="SPCoast" package="RJ25-INVERTED" value="" x="54.445" y="15.875" rot="R270"/>
 <element name="CON2X21" library="SPCoast" package="1X06_LOCK" value="" x="95.085" y="10.16" rot="R90"/>
-<element name="LED1X21" library="SPCoast" package="0805-LED" value="G" x="60.795" y="37.465"/>
-<element name="LED2X21" library="SPCoast" package="0805-LED" value="G" x="70.955" y="37.465"/>
-<element name="LED3X21" library="SPCoast" package="0805-LED" value="G" x="81.115" y="37.465"/>
-<element name="LED4X21" library="SPCoast" package="0805-LED" value="G" x="91.275" y="37.465"/>
-<element name="Q1X21" library="SPCoast" package="SOT23-3" value="p-fet" x="55.715" y="41.275" rot="R90"/>
-<element name="Q2X21" library="SPCoast" package="SOT23-3" value="p-fet" x="65.875" y="41.275" rot="R90"/>
-<element name="Q3X21" library="SPCoast" package="SOT23-3" value="p-fet" x="76.035" y="41.275" rot="R90"/>
-<element name="Q4X21" library="SPCoast" package="SOT23-3" value="p-fet" x="86.195" y="41.275" rot="R90"/>
+<element name="LED1X21" library="SPCoast" package="0805-LED" value="G" x="60.795" y="37.465" rot="R180"/>
+<element name="LED2X21" library="SPCoast" package="0805-LED" value="G" x="70.955" y="37.465" rot="R180"/>
+<element name="LED3X21" library="SPCoast" package="0805-LED" value="G" x="81.115" y="37.465" rot="R180"/>
+<element name="LED4X21" library="SPCoast" package="0805-LED" value="G" x="91.275" y="37.465" rot="R180"/>
+<element name="Q1X21" library="SPCoast" package="SOT23-3" value="p-fet" x="55.715" y="41.275"/>
+<element name="Q2X21" library="SPCoast" package="SOT23-3" value="p-fet" x="65.875" y="41.275"/>
+<element name="Q3X21" library="SPCoast" package="SOT23-3" value="p-fet" x="76.035" y="41.275"/>
+<element name="Q4X21" library="SPCoast" package="SOT23-3" value="p-fet" x="86.195" y="41.275"/>
 <element name="R1X21" library="SPCoast" package="0805-RES" value="2k0" x="55.715" y="37.465" rot="R180"/>
 <element name="R2X21" library="SPCoast" package="0805-RES" value="2k0" x="65.875" y="37.465" rot="R180"/>
 <element name="R3X21" library="SPCoast" package="0805-RES" value="2k0" x="76.035" y="37.465" rot="R180"/>
@@ -768,14 +763,14 @@ design rules under a new name.
 <element name="SW4X21" library="SPCoast" package="B3F-10XX" value="" x="91.275" y="29.845" rot="R90"/>
 <element name="CON1X22" library="SPCoast" package="RJ25-INVERTED" value="" x="54.445" y="65.875" rot="R270"/>
 <element name="CON2X22" library="SPCoast" package="1X06_LOCK" value="" x="95.085" y="60.16" rot="R90"/>
-<element name="LED1X22" library="SPCoast" package="0805-LED" value="G" x="60.795" y="87.465"/>
-<element name="LED2X22" library="SPCoast" package="0805-LED" value="G" x="70.955" y="87.465"/>
-<element name="LED3X22" library="SPCoast" package="0805-LED" value="G" x="81.115" y="87.465"/>
-<element name="LED4X22" library="SPCoast" package="0805-LED" value="G" x="91.275" y="87.465"/>
-<element name="Q1X22" library="SPCoast" package="SOT23-3" value="p-fet" x="55.715" y="91.275" rot="R90"/>
-<element name="Q2X22" library="SPCoast" package="SOT23-3" value="p-fet" x="65.875" y="91.275" rot="R90"/>
-<element name="Q3X22" library="SPCoast" package="SOT23-3" value="p-fet" x="76.035" y="91.275" rot="R90"/>
-<element name="Q4X22" library="SPCoast" package="SOT23-3" value="p-fet" x="86.195" y="91.275" rot="R90"/>
+<element name="LED1X22" library="SPCoast" package="0805-LED" value="G" x="60.795" y="87.465" rot="R180"/>
+<element name="LED2X22" library="SPCoast" package="0805-LED" value="G" x="70.955" y="87.465" rot="R180"/>
+<element name="LED3X22" library="SPCoast" package="0805-LED" value="G" x="81.115" y="87.465" rot="R180"/>
+<element name="LED4X22" library="SPCoast" package="0805-LED" value="G" x="91.275" y="87.465" rot="R180"/>
+<element name="Q1X22" library="SPCoast" package="SOT23-3" value="p-fet" x="55.715" y="91.275"/>
+<element name="Q2X22" library="SPCoast" package="SOT23-3" value="p-fet" x="65.875" y="91.275"/>
+<element name="Q3X22" library="SPCoast" package="SOT23-3" value="p-fet" x="76.035" y="91.275"/>
+<element name="Q4X22" library="SPCoast" package="SOT23-3" value="p-fet" x="86.195" y="91.275"/>
 <element name="R1X22" library="SPCoast" package="0805-RES" value="2k0" x="55.715" y="87.465" rot="R180"/>
 <element name="R2X22" library="SPCoast" package="0805-RES" value="2k0" x="65.875" y="87.465" rot="R180"/>
 <element name="R3X22" library="SPCoast" package="0805-RES" value="2k0" x="76.035" y="87.465" rot="R180"/>
