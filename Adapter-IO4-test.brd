@@ -620,10 +620,10 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="CON1" library="SPCoast" package="RJ25-INVERTED" value="" x="4.445" y="15.875" smashed="yes" rot="R270">
+<element name="CON1" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="4.445" y="15.875" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.049" y="20.955" size="1.778" layer="25" rot="R270"/>
 </element>
-<element name="CON2" library="SPCoast" package="1X06_LOCK" value="" x="45.085" y="10.16" smashed="yes" rot="R90">
+<element name="CON2" library="SPCoast" package="1X06_LOCK" value="0.100" x="45.085" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.307" y="8.89" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="48.387" y="8.89" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>

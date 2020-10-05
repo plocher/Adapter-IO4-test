@@ -4928,8 +4928,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </classes>
 <parts>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
-<part name="CON1" library="SPCoast" deviceset="CONNECTOR-IO4" device="INV"/>
-<part name="CON2" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK"/>
+<part name="CON1" library="SPCoast" deviceset="CONNECTOR-IO4" device="INV" value="RJ12/6"/>
+<part name="CON2" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK" value="0.100"/>
 <part name="Q1" library="SPCoast" deviceset="MOSFET-P" device="" value="P-FET"/>
 <part name="Q2" library="SPCoast" deviceset="MOSFET-P" device="" value="P-FET"/>
 <part name="Q3" library="SPCoast" deviceset="MOSFET-P" device="" value="P-FET"/>
